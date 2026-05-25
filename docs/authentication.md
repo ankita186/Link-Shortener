@@ -44,3 +44,21 @@ export default function RootLayout({ children }) {
   );
 }
 ```
+
+---
+
+## Neon project reference
+
+This app uses the shared Neon project `LinkShortnerProject` (`little-surf-51053229`) in `aws-ap-southeast-1`.
+
+- Default branch: `production` (`br-holy-sound-aonncu7s`)
+- PostgreSQL version: `17`
+
+Keep this project reference for future DB access, branch descriptions, and authentication-related backend setup.
+
+---
+
+## Account credentials
+
+- **Clerk account**: `anquita98@gmail.com`
+- **Drizzle account**: `anquita98@gmail.com`

@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1779449164748,
+      "tag": "0000_dapper_sunset_bain",
+      "breakpoints": true
+    }
+  ]
+}

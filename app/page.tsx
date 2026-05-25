@@ -59,12 +59,12 @@ export default function Home() {
           your history, and share confidently — all from one dashboard.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 mt-2">
-          <SignUpButton mode="modal">
+          <SignUpButton mode="modal" signInForceRedirectUrl="/dashboard">
             <Button size="lg" className="px-8">
               Get started free
             </Button>
           </SignUpButton>
-          <SignInButton mode="modal">
+          <SignInButton mode="modal" forceRedirectUrl="/dashboard">
             <Button size="lg" variant="outline" className="px-8">
               Sign in
             </Button>

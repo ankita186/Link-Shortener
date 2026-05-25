@@ -4,6 +4,8 @@
 
 > 🚨 **CRITICAL — NON-NEGOTIABLE RULE:** You **MUST** read the relevant individual `.md` file(s) inside the [`/docs`](./docs) directory **BEFORE generating ANY code, making ANY edits, or producing ANY output**. This is not optional. Skipping this step is a hard violation of these instructions. No exceptions. No shortcuts. Read the docs first — every single time.
 
+> **IMPORTANT — NO `middleware.ts`:** Recent Next.js versions deprecate `middleware.ts`. Agents MUST NOT create or use a `middleware.ts` file. Instead, always implement any request-level proxying, redirects, or middleware-like behavior using the project's `proxy.ts`. When reviewing code, flag any presence of `middleware.ts` and replace its behavior with `proxy.ts` following project conventions.
+
 ---
 
 ## 1. Project Overview
